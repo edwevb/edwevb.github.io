@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+.myLink:hover, :focus{
+	opacity: .8;
+	color: #AD7B52;
+	transition: .3s;
+}
+
+body{
+	background: linear-gradient(rgba(0,0,0,0.125), rgba(0,0,0,0.125), rgba(0,0,0,0.5)), url("/assets/img/bg_page.jpg") no-repeat center center fixed;
+	background-size: cover;
+	transition: -webkit-filter 0.5s;
+	transition: filter 0.5s;
+	transition: filter 0.5s, -webkit-filter 0.5s;
+	font-family: 'Raleway', sans-serif;
+}
+
+.myHr{
+	border: 3px solid #998E7A;
+}
+
+.linked a{
+	color: #f7f7f7;
+	text-shadow: .5px 1px 1px #000;
+	text-decoration: none;
+}
+
+h1, footer{
+	text-shadow: .5px .5px 1px #000;
+}
+
+@media (min-width: 768px){
+	.myBtn{
+		padding: 10px 125px 10px 125px;
+	}
+	body{
+		margin-top: 300px;
+	}
+}
+
+@media(max-width: 576px){
+	body{
+		margin-top: 300px;
+	}
+}
+
+.myBtn{
+	background-color: #AD7B52;
+	outline: 0;
+	border:none;
+}
