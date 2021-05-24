@@ -6,7 +6,7 @@
 }
 
 body{
-	background: linear-gradient(rgba(0,0,0,0.125), rgba(0,0,0,0.125), rgba(0,0,0,0.5)), url("/assets/img/bg_page.jpg") no-repeat center center fixed;
+	background: url("/assets/img/bg_page.jpg") no-repeat center center fixed;
 	background-size: cover;
 	transition: -webkit-filter 0.5s;
 	transition: filter 0.5s;
@@ -33,13 +33,13 @@ h1, footer{
 		padding: 10px 125px 10px 125px;
 	}
 	body{
-		margin-top: 300px;
+		margin-top: 335px;
 	}
 }
 
 @media(max-width: 576px){
 	body{
-		margin-top: 300px;
+		margin-top: 320px;
 	}
 }
 
